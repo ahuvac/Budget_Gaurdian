@@ -1,7 +1,37 @@
 /* Variables  */
 :root {
     --medium-margin: 10px;
-    --large-margin: 18px
+    --large-margin: 18px;
 }
 
 /* Styles */
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    background-color: slategray;
+}
+
+h3 {
+    color: black;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+p{
+    color: white;
+    font-family: "American Typewriter";
+
+}
+a{
+    margin-left: var(--medium-margin);
+
+}
+
+nav{
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+    length: 100px;
+}

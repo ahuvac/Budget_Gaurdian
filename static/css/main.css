@@ -32,6 +32,5 @@ nav{
     position: fixed;
     background-color: white;
     z-index: 10;
-
-    length: 100px;
+    width: 100px;
 }

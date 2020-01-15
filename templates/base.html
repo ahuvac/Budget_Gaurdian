@@ -4,11 +4,6 @@
         <meta charset="UTF-8">
 
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.io') }}">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-
 
         <link rel="stylesheet"
               href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
@@ -26,7 +21,7 @@
 
     <body>
         <nav>
-            <img src="../static/favicon.io" alt="Logo"/>
+            <img src="../static/favicon.ico" alt="Logo"/>
             <a href="{{ url_for('index') }}">Home</a>
             <a href="{{ url_for('page2') }}">Dog Catalogue</a>
             <a href="{{ url_for('page3') }}">Adoption Request Form</a>

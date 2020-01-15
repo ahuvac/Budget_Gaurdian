@@ -20,7 +20,7 @@ h3 {
 
 p{
     color: white;
-    font-family: "American Typewriter";
+    font-family: "American Typewriter", serif;
 
 }
 a{
@@ -29,8 +29,7 @@ a{
 }
 
 nav{
-    position: fixed;
     background-color: white;
+    width: 100%;
     z-index: 10;
-    width: 100px;
-}
+   }

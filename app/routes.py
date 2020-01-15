@@ -8,10 +8,12 @@ from flask import render_template
 def index():
     return render_template('index.html', title="Home Page")
 
+
 @app.route('/page2')
 def page2():
     return render_template('page2.html', title="Page 2")
 
+
 @app.route('/about')
 def page3():
-    return render_template('page3.html', title = "About Page")
+    return render_template('page3.html', title="About Page")
